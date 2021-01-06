@@ -1,0 +1,88 @@
+
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.maindiv{
+    background-color: #283444;
+}
+
+.container{
+    padding: 2% 4% 8% 4%;
+    height: 100vh;
+    width: 100vw;
+    color:#1AB5A4;
+}
+
+.container a {
+    text-decoration: none;
+    
+}
+
+.container i{
+    margin-bottom: 150px;
+    margin-top: 50px;
+    color:#1AB5A4;  
+    font-size: 100px;
+}
+.dice{
+
+  margin-top: 10px;
+  font-family: 'Righteous', cursive;
+}
+
+.dice img{
+    height: 150px;
+    width: 150px;
+    margin-top: 30px;
+    color: white;
+}
+
+.copy p{
+    margin-top: 50px;
+    font-family: 'Righteous', cursive;
+    font-size: 18px;
+    color: white;
+
+}
+
+
+
+@media screen and (max-width:767px){
+
+    .container i{
+        margin-bottom: 30px;
+        margin-top: 20px;
+        color:#1AB5A4;  
+        font-size: 50px;
+    }
+
+    .dice h3{
+        font-size: 20px;
+        margin-top: 50px;
+    }
+
+    .dice img{
+        height: 90px;
+        width: 90px;
+        margin-top: 10px;
+        color: white;
+    }
+
+    .copy h1{
+        font-size: 28px;
+    }
+
+    .copy p{
+        margin-top: 50px;
+        font-family: 'Righteous', cursive;
+        font-size: 12px;
+        color: white;
+    
+    }
+
+}
