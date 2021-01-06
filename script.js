@@ -20,7 +20,7 @@
     image2.setAttribute("src", randomImageSource1);
 
 
-    // conditions
+    // conditions for declaring result
 
     if (randomNumber > randomNumber1) {
         document.querySelector("h1").innerHTML = "Player One Wins !";
